@@ -4,13 +4,15 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Gopal", "Khanal", , "khanal.joshipur@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: This is an instructional package demontrating how to create a simple package.
+Description: This is an instructional package demontrating how to create a
+    simple package.
 License: MIT + file LICENSE
-Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
 URL: https://github.com/gopalkhanal11/square
 BugReports: https://github.com/gopalkhanal11/square/issues
 Suggests: 
+    palmarpenguins,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
